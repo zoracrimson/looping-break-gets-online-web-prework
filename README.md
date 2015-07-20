@@ -1,5 +1,11 @@
 # Breaking and Gets
 
+## Objectives
+
+1. Understand how the `break` keyword is used in looping.
+2. Understand how the `gets` method is used to store a user's input.
+3. Utilize both `break` and `gets` in your own program.
+
 ## What is the `break` keyword?
 
 What happens when we have an infinite loop that keeps on going forever? What happens when, given a specific output, we want to break out of the loop? This is where the `break` keyword comes in.
@@ -33,11 +39,15 @@ Let's say we are writing a program in order to annoy someone (maybe a younger si
 
 Now that we've proposed a use case for the utilizing the `break` keyword, we're going to take a step back and discuss how to get and use a user's input. 
 
+## When *not* to use `break`
+
+The use of the `break` keyword is generally avoided. In upcoming lessons, we'll learn how to write more elegant, self-explanatory loops that *don't* require `break`-ing. It is important to understand how `break` works, however, and it is useful in command line applications. 
+
 # Gets
 
 The `gets` method accepts a single line of data from the standard input - the keyboard in this case. Then, your program can assign that value to a variable. 
 
-*Not on standard input: The standard input is a default stream supplied by many operating systems that relates to the standard way to accept input from the user. In our case, the standard input is the keyboard. For now, just think of the standard input as what our user types into the terminal.*
+*Note on standard input: The standard input is a default stream supplied by many operating systems that relates to the standard way to accept input from the user. In our case, the standard input is the keyboard. For now, just think of the standard input as what our user types into the terminal.*
 
 We're going to play with method `greeting` that uses `puts` to ask a user for their name. Then, their response that they type into the terminal will be stored in a variable via the `gets` method. Then, the `greeting` method will proceed to puts out a greeting: "Your name is < name >"
 
@@ -87,7 +97,7 @@ annoying
 
 If you copy and paste the above code into IRB (hint: do it), you will probably be annoyed. Here's what happened when I copied and pasted the code into my terminal:
 
-```ruby
+```
 What's up, Doc?
 nothing
 What's up, Doc?
@@ -125,6 +135,4 @@ Let's break this down. We have a method, called `annoying`, that contains a loop
 Fork and clone this lab. Read the below explanation and run the test suite to get started. 
 
 * Okay, now that we've mastered feather levitation, we're ready for the levitation quiz! Fill out the content of the method `levitation_quiz` so that it contains a loop that asks the user "What is the spell that enacts levitation?" It should then store the answer in a variable called `answer` using the `gets.chomp` method. The loop should `break` if the user's answer is "Wingardium Leviosa". When the loop breaks, our method should puts out "You passed the quiz!" Otherwise, the loop should continue. 
-
-
 
