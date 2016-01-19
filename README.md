@@ -37,7 +37,7 @@ We've added a `break` keyword in the `while` loop. When the condition `if counte
 
 Let's say we are writing a program in order to annoy someone (maybe a younger sibling or beloved coworker?) Our program should `puts` the phrase "What's up, Doc?" again and again and again until our annoyed user finally inputs "STOP" into the terminal. In this case, we are looping indefinitely and breaking *if* a user inputs "STOP". 
 
-Now that we've proposed a use case for the utilizing the `break` keyword, we're going to take a step back and discuss how to get and use a user's input. 
+After we discuss when NOT to use the `break` keyword, we will show you how to get and use a user's input. 
 
 ## When *not* to use `break`
 
