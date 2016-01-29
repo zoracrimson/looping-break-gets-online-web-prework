@@ -143,4 +143,4 @@ Fork and clone this lab. Read the below explanation and run the test suite to ge
 
 
 
-<a href='https://learn.co/lessons/looping-break-gets' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/looping-break-gets' title='break and gets'>break and gets</a> on Learn.co and start learning to code for free.</p>
